@@ -49,6 +49,14 @@
 		4F88862C2432D556006291E5 /* TicTacInfinityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacInfinityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8886302432D556006291E5 /* TicTacInfinityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacInfinityUITests.swift; sourceTree = "<group>"; };
 		4F8886322432D556006291E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F88863E2432D668006291E5 /* Inter-UI-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4F88863F2432D668006291E5 /* Inter-UI-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4F8886402432D669006291E5 /* Inter-UI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Regular.ttf"; sourceTree = "<group>"; };
+		4F8886412432D669006291E5 /* Inter-UI-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Medium.ttf"; sourceTree = "<group>"; };
+		4F8886422432D669006291E5 /* Inter-UI-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Italic.ttf"; sourceTree = "<group>"; };
+		4F8886432432D669006291E5 /* Inter-UI-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Black.ttf"; sourceTree = "<group>"; };
+		4F8886442432D669006291E5 /* Inter-UI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Bold.ttf"; sourceTree = "<group>"; };
+		4F8886452432D669006291E5 /* Inter-UI-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-BlackItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,14 @@
 				4F8886172432D556006291E5 /* Assets.xcassets */,
 				4F8886192432D556006291E5 /* LaunchScreen.storyboard */,
 				4F88861C2432D556006291E5 /* Info.plist */,
+				4F8886432432D669006291E5 /* Inter-UI-Black.ttf */,
+				4F8886452432D669006291E5 /* Inter-UI-BlackItalic.ttf */,
+				4F8886442432D669006291E5 /* Inter-UI-Bold.ttf */,
+				4F88863E2432D668006291E5 /* Inter-UI-BoldItalic.ttf */,
+				4F8886422432D669006291E5 /* Inter-UI-Italic.ttf */,
+				4F8886412432D669006291E5 /* Inter-UI-Medium.ttf */,
+				4F88863F2432D668006291E5 /* Inter-UI-MediumItalic.ttf */,
+				4F8886402432D669006291E5 /* Inter-UI-Regular.ttf */,
 			);
 			path = TicTacInfinity;
 			sourceTree = "<group>";
