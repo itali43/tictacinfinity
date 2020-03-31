@@ -60,5 +60,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-UI-Black.ttf</string>
+		<string>Inter-UI-Bold.ttf</string>
+		<string>Inter-UI-BlackItalic.ttf</string>
+		<string>Inter-UI-BoldItalic.ttf</string>
+		<string>Inter-UI-Italic.ttf</string>
+		<string>Inter-UI-Medium.ttf</string>
+		<string>Inter-UI-MediumItalic.ttf</string>
+		<string>Inter-UI-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

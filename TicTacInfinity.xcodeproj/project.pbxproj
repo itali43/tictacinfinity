@@ -15,6 +15,7 @@
 		4F88861B2432D556006291E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8886192432D556006291E5 /* LaunchScreen.storyboard */; };
 		4F8886262432D556006291E5 /* TicTacInfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886252432D556006291E5 /* TicTacInfinityTests.swift */; };
 		4F8886312432D556006291E5 /* TicTacInfinityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886302432D556006291E5 /* TicTacInfinityUITests.swift */; };
+		4F8886472432DB43006291E5 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886462432DB43006291E5 /* StartingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4F8886432432D669006291E5 /* Inter-UI-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Black.ttf"; sourceTree = "<group>"; };
 		4F8886442432D669006291E5 /* Inter-UI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Bold.ttf"; sourceTree = "<group>"; };
 		4F8886452432D669006291E5 /* Inter-UI-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4F8886462432DB43006291E5 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4F88860E2432D553006291E5 /* AppDelegate.swift */,
 				4F8886102432D553006291E5 /* SceneDelegate.swift */,
 				4F8886122432D553006291E5 /* ViewController.swift */,
+				4F8886462432DB43006291E5 /* StartingViewController.swift */,
 				4F8886142432D553006291E5 /* Main.storyboard */,
 				4F8886172432D556006291E5 /* Assets.xcassets */,
 				4F8886192432D556006291E5 /* LaunchScreen.storyboard */,
@@ -277,6 +280,7 @@
 			files = (
 				4F8886132432D553006291E5 /* ViewController.swift in Sources */,
 				4F88860F2432D553006291E5 /* AppDelegate.swift in Sources */,
+				4F8886472432DB43006291E5 /* StartingViewController.swift in Sources */,
 				4F8886112432D553006291E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
