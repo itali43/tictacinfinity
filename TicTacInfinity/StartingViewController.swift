@@ -12,7 +12,7 @@ class StartingViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     //  Starting controller where you choose your size
     var pickerData: [String] = [String]()
-    var picked = "3 by 3"
+    var picked = "3x3"
     
     
     @IBOutlet weak var sizePicker: UIPickerView!
@@ -25,7 +25,7 @@ class StartingViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pickerData = ["3 by 3", "4 by 4", "5 by 5"]
+        pickerData = ["3x3", "4x4", "5x5"]
         self.sizePicker.delegate = self
         self.sizePicker.dataSource = self
 

@@ -8,6 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Inter-UI-Black.ttf">
+            <string>InterUI-Black</string>
+        </array>
         <array key="Inter-UI-Regular.ttf">
             <string>InterUI-Regular</string>
         </array>
@@ -57,7 +60,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="tf4-sm-GBi"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="InterUI-Black" family="Inter UI" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -97,7 +100,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Infinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzg-va-TRv">
                                 <rect key="frame" x="20" y="60" width="374" height="47"/>
-                                <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="InterUI-Black" family="Inter UI" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -109,11 +112,23 @@
                                     <constraint firstAttribute="width" constant="300" id="dBv-wB-s7L"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It is X's Turn." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uII-ps-P9s">
+                                <rect key="frame" x="20" y="115" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4OV-Ln-3PR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xzg-va-TRv" secondAttribute="trailing" constant="20" id="7TE-ND-gEG"/>
                             <constraint firstItem="LmI-A5-vwx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EFZ-Ib-GZG"/>
+                            <constraint firstItem="uII-ps-P9s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GoV-dK-bcZ"/>
+                            <constraint firstItem="uII-ps-P9s" firstAttribute="top" secondItem="Xzg-va-TRv" secondAttribute="bottom" constant="8" id="Nwy-jy-Jo0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uII-ps-P9s" secondAttribute="trailing" constant="20" id="jOt-2a-lED"/>
                             <constraint firstItem="LmI-A5-vwx" firstAttribute="top" secondItem="Xzg-va-TRv" secondAttribute="bottom" constant="70" id="kTN-ho-aQQ"/>
                             <constraint firstItem="Xzg-va-TRv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="ltO-CU-00Z"/>
                             <constraint firstItem="Xzg-va-TRv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yLP-1f-IzX"/>
@@ -124,6 +139,7 @@
                     <connections>
                         <outlet property="boardView" destination="LmI-A5-vwx" id="m08-d4-uqR"/>
                         <outlet property="titleLabel" destination="Xzg-va-TRv" id="kmh-zd-iag"/>
+                        <outlet property="turnLabel" destination="uII-ps-P9s" id="Cx4-qh-Dyx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
