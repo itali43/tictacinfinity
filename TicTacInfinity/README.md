@@ -17,3 +17,4 @@ Task: Implement a 2-player (not AI) version of TicTacToe with a variable number 
 - further optimize winning algos towards a v1 quality release: I built the algos fairly fast, I'm sure there are some things I can do to optimize for speed and readability still if I reexamined them (estimated timing: a day)
 - Keep score.  Who doesn't want to know who wins best two out of three?  (estimated timing: 30 minutes)
 - Make it bigger on iPad.  Both the board and the icons.  This ties into dynamic sizing, mentioned first. (estimated timing: 4 hours)
+- Catchier name.  Branding is everything in the competitive tictactoe app market! (estimated time: 1 hour)
