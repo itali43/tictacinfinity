@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity-TicTacInfinityUITests/Pods-TicTacInfinity-TicTacInfinityUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
+${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework

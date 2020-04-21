@@ -1,0 +1,6 @@
+framework module Pods_TicTacInfinity_TicTacInfinityUITests {
+  umbrella header "Pods-TicTacInfinity-TicTacInfinityUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
