@@ -10,6 +10,8 @@ import UIKit
 
 class StartingViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    @IBOutlet weak var titleLabel: UILabel!
+    
     //  Starting controller where you choose your size
     var pickerData: [String] = [String]()
     var picked = "3x3"
@@ -22,14 +24,27 @@ class StartingViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: false)
+    }
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        titleLabel.text = "Tic Tac \nInfinity"
+        
         pickerData = ["3x3", "4x4", "5x5"]
         self.sizePicker.delegate = self
         self.sizePicker.dataSource = self
 
-        
         
         startButton.layer.cornerRadius = 0.5 * startButton.bounds.size.width
         startButton.clipsToBounds = true
@@ -48,6 +63,7 @@ class StartingViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
 
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        
         return pickerData[row]
     }
     
@@ -58,8 +74,7 @@ class StartingViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
 
     }
     
-    
-    
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

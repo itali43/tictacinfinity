@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382413469BAB84286C822213 /* Pods_TicTacInfinity_TicTacInfinityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90B5B99CA314E16F2928EE5 /* Pods_TicTacInfinity_TicTacInfinityUITests.framework */; };
 		4F88860F2432D553006291E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F88860E2432D553006291E5 /* AppDelegate.swift */; };
 		4F8886112432D553006291E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886102432D553006291E5 /* SceneDelegate.swift */; };
 		4F8886132432D553006291E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886122432D553006291E5 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		4F8886262432D556006291E5 /* TicTacInfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886252432D556006291E5 /* TicTacInfinityTests.swift */; };
 		4F8886312432D556006291E5 /* TicTacInfinityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886302432D556006291E5 /* TicTacInfinityUITests.swift */; };
 		4F8886472432DB43006291E5 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8886462432DB43006291E5 /* StartingViewController.swift */; };
+		85E77A97A6D2A5576B00A324 /* Pods_TicTacInfinity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C8F52341E27425923D8216 /* Pods_TicTacInfinity.framework */; };
+		E72DFC2AD0A12F787B18801B /* Pods_TicTacInfinityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFBD2CAADCD6CC136E0E67 /* Pods_TicTacInfinityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A65EDEA61C7F93617C9A7CA /* Pods-TicTacInfinityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacInfinityTests.debug.xcconfig"; path = "Target Support Files/Pods-TicTacInfinityTests/Pods-TicTacInfinityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F88860B2432D553006291E5 /* TicTacInfinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacInfinity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F88860E2432D553006291E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F8886102432D553006291E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 		4F8886442432D669006291E5 /* Inter-UI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-Bold.ttf"; sourceTree = "<group>"; };
 		4F8886452432D669006291E5 /* Inter-UI-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI-BlackItalic.ttf"; sourceTree = "<group>"; };
 		4F8886462432DB43006291E5 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		4FCA6AFA244A71B700B28FD3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		558FFDD01E781401F95A0DC8 /* Pods-TicTacInfinity-TicTacInfinityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacInfinity-TicTacInfinityUITests.debug.xcconfig"; path = "Target Support Files/Pods-TicTacInfinity-TicTacInfinityUITests/Pods-TicTacInfinity-TicTacInfinityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		756C3AF47EB5C59A967ECC86 /* Pods-TicTacInfinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacInfinity.debug.xcconfig"; path = "Target Support Files/Pods-TicTacInfinity/Pods-TicTacInfinity.debug.xcconfig"; sourceTree = "<group>"; };
+		A64080C572D4502DF3C7A8D9 /* Pods-TicTacInfinity-TicTacInfinityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacInfinity-TicTacInfinityUITests.release.xcconfig"; path = "Target Support Files/Pods-TicTacInfinity-TicTacInfinityUITests/Pods-TicTacInfinity-TicTacInfinityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D90B5B99CA314E16F2928EE5 /* Pods_TicTacInfinity_TicTacInfinityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacInfinity_TicTacInfinityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EFBD2CAADCD6CC136E0E67 /* Pods_TicTacInfinityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacInfinityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E532D4BC2F11937E44DF0D /* Pods-TicTacInfinityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacInfinityTests.release.xcconfig"; path = "Target Support Files/Pods-TicTacInfinityTests/Pods-TicTacInfinityTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7C8F52341E27425923D8216 /* Pods_TicTacInfinity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacInfinity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63B41F0AA8EC820FE2ABFBF /* Pods-TicTacInfinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacInfinity.release.xcconfig"; path = "Target Support Files/Pods-TicTacInfinity/Pods-TicTacInfinity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E77A97A6D2A5576B00A324 /* Pods_TicTacInfinity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E72DFC2AD0A12F787B18801B /* Pods_TicTacInfinityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382413469BAB84286C822213 /* Pods_TicTacInfinity_TicTacInfinityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +109,8 @@
 				4F8886242432D556006291E5 /* TicTacInfinityTests */,
 				4F88862F2432D556006291E5 /* TicTacInfinityUITests */,
 				4F88860C2432D553006291E5 /* Products */,
+				C2835C10DB6B3519CDECF1D7 /* Pods */,
+				A269D5AD5366A9C5D5DBB2C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,8 +129,8 @@
 			children = (
 				4F88860E2432D553006291E5 /* AppDelegate.swift */,
 				4F8886102432D553006291E5 /* SceneDelegate.swift */,
-				4F8886122432D553006291E5 /* ViewController.swift */,
 				4F8886462432DB43006291E5 /* StartingViewController.swift */,
+				4F8886122432D553006291E5 /* ViewController.swift */,
 				4F8886142432D553006291E5 /* Main.storyboard */,
 				4F8886172432D556006291E5 /* Assets.xcassets */,
 				4F8886192432D556006291E5 /* LaunchScreen.storyboard */,
@@ -125,6 +143,7 @@
 				4F8886412432D669006291E5 /* Inter-UI-Medium.ttf */,
 				4F88863F2432D668006291E5 /* Inter-UI-MediumItalic.ttf */,
 				4F8886402432D669006291E5 /* Inter-UI-Regular.ttf */,
+				4FCA6AFA244A71B700B28FD3 /* README.md */,
 			);
 			path = TicTacInfinity;
 			sourceTree = "<group>";
@@ -147,6 +166,29 @@
 			path = TicTacInfinityUITests;
 			sourceTree = "<group>";
 		};
+		A269D5AD5366A9C5D5DBB2C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7C8F52341E27425923D8216 /* Pods_TicTacInfinity.framework */,
+				D90B5B99CA314E16F2928EE5 /* Pods_TicTacInfinity_TicTacInfinityUITests.framework */,
+				E0EFBD2CAADCD6CC136E0E67 /* Pods_TicTacInfinityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2835C10DB6B3519CDECF1D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				756C3AF47EB5C59A967ECC86 /* Pods-TicTacInfinity.debug.xcconfig */,
+				F63B41F0AA8EC820FE2ABFBF /* Pods-TicTacInfinity.release.xcconfig */,
+				558FFDD01E781401F95A0DC8 /* Pods-TicTacInfinity-TicTacInfinityUITests.debug.xcconfig */,
+				A64080C572D4502DF3C7A8D9 /* Pods-TicTacInfinity-TicTacInfinityUITests.release.xcconfig */,
+				4A65EDEA61C7F93617C9A7CA /* Pods-TicTacInfinityTests.debug.xcconfig */,
+				E5E532D4BC2F11937E44DF0D /* Pods-TicTacInfinityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F8886352432D556006291E5 /* Build configuration list for PBXNativeTarget "TicTacInfinity" */;
 			buildPhases = (
+				908CB1BF85C93D0CB1621CD9 /* [CP] Check Pods Manifest.lock */,
 				4F8886072432D553006291E5 /* Sources */,
 				4F8886082432D553006291E5 /* Frameworks */,
 				4F8886092432D553006291E5 /* Resources */,
+				13DB00CE26492A283E153812 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F8886382432D556006291E5 /* Build configuration list for PBXNativeTarget "TicTacInfinityTests" */;
 			buildPhases = (
+				1968FAB6B5E4A7F661A0167E /* [CP] Check Pods Manifest.lock */,
 				4F88861D2432D556006291E5 /* Sources */,
 				4F88861E2432D556006291E5 /* Frameworks */,
 				4F88861F2432D556006291E5 /* Resources */,
@@ -189,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F88863B2432D556006291E5 /* Build configuration list for PBXNativeTarget "TicTacInfinityUITests" */;
 			buildPhases = (
+				00D8090632E07F1C7B8992A9 /* [CP] Check Pods Manifest.lock */,
 				4F8886282432D556006291E5 /* Sources */,
 				4F8886292432D556006291E5 /* Frameworks */,
 				4F88862A2432D556006291E5 /* Resources */,
+				6E42150D6A4E2A15213065E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +319,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D8090632E07F1C7B8992A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTacInfinity-TicTacInfinityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13DB00CE26492A283E153812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity/Pods-TicTacInfinity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity/Pods-TicTacInfinity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity/Pods-TicTacInfinity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1968FAB6B5E4A7F661A0167E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTacInfinityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E42150D6A4E2A15213065E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity-TicTacInfinityUITests/Pods-TicTacInfinity-TicTacInfinityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity-TicTacInfinityUITests/Pods-TicTacInfinity-TicTacInfinityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicTacInfinity-TicTacInfinityUITests/Pods-TicTacInfinity-TicTacInfinityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908CB1BF85C93D0CB1621CD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTacInfinity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F8886072432D553006291E5 /* Sources */ = {
@@ -452,6 +602,7 @@
 		};
 		4F8886362432D556006291E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756C3AF47EB5C59A967ECC86 /* Pods-TicTacInfinity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +621,7 @@
 		};
 		4F8886372432D556006291E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63B41F0AA8EC820FE2ABFBF /* Pods-TicTacInfinity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +640,7 @@
 		};
 		4F8886392432D556006291E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A65EDEA61C7F93617C9A7CA /* Pods-TicTacInfinityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +663,7 @@
 		};
 		4F88863A2432D556006291E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E532D4BC2F11937E44DF0D /* Pods-TicTacInfinityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +686,7 @@
 		};
 		4F88863C2432D556006291E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558FFDD01E781401F95A0DC8 /* Pods-TicTacInfinity-TicTacInfinityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +707,7 @@
 		};
 		4F88863D2432D556006291E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64080C572D4502DF3C7A8D9 /* Pods-TicTacInfinity-TicTacInfinityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bHC-bJ-elo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HYJ-LV-jSU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
@@ -21,15 +21,15 @@
             <objects>
                 <viewController id="bHC-bJ-elo" customClass="StartingViewController" customModule="TicTacInfinity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GT8-sd-1EW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3M-bS-bTc">
-                                <rect key="frame" x="147" y="488" width="120" height="120"/>
+                                <rect key="frame" x="132" y="529" width="150" height="150"/>
                                 <color key="backgroundColor" name="mainBlue"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="Ki4-Sm-F9V"/>
-                                    <constraint firstAttribute="width" constant="120" id="upy-AI-6Vc"/>
+                                    <constraint firstAttribute="width" constant="150" id="1zX-Dg-l22"/>
+                                    <constraint firstAttribute="height" constant="150" id="Ki4-Sm-F9V"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="40"/>
                                 <state key="normal" title="Play!">
@@ -41,26 +41,26 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v15-lW-ONL">
-                                <rect key="frame" x="20" y="348" width="374" height="120"/>
+                                <rect key="frame" x="20" y="389" width="374" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="vWj-Xs-dvq"/>
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick The Size of Your Board:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNy-15-Kpv">
-                                <rect key="frame" x="5" y="256" width="404" height="90"/>
+                                <rect key="frame" x="5" y="299" width="404" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="1UT-cl-UYl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Infinity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXE-hT-xfX">
-                                <rect key="frame" x="5" y="64" width="404" height="90"/>
+                                <rect key="frame" x="5" y="20" width="404" height="180"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="tf4-sm-GBi"/>
+                                    <constraint firstAttribute="height" constant="180" id="tf4-sm-GBi"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="InterUI-Black" family="Inter UI" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="InterUI-Black" family="Inter UI" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -72,8 +72,8 @@
                             <constraint firstItem="5jF-6y-rfC" firstAttribute="trailing" secondItem="v15-lW-ONL" secondAttribute="trailing" constant="20" id="Kzm-aO-Gyf"/>
                             <constraint firstItem="s3M-bS-bTc" firstAttribute="top" secondItem="v15-lW-ONL" secondAttribute="bottom" constant="20" id="LhR-3C-jU4"/>
                             <constraint firstItem="IXE-hT-xfX" firstAttribute="top" secondItem="5jF-6y-rfC" secondAttribute="top" constant="20" id="PLN-ai-VFb"/>
-                            <constraint firstItem="v15-lW-ONL" firstAttribute="top" secondItem="iNy-15-Kpv" secondAttribute="bottom" constant="2" id="Pev-Jp-Dv2"/>
-                            <constraint firstItem="s3M-bS-bTc" firstAttribute="centerY" secondItem="GT8-sd-1EW" secondAttribute="centerY" constant="100" id="auQ-PV-fZk"/>
+                            <constraint firstItem="v15-lW-ONL" firstAttribute="top" secondItem="iNy-15-Kpv" secondAttribute="bottom" id="Pev-Jp-Dv2"/>
+                            <constraint firstItem="s3M-bS-bTc" firstAttribute="centerY" secondItem="GT8-sd-1EW" secondAttribute="centerY" constant="200" id="auQ-PV-fZk"/>
                             <constraint firstItem="IXE-hT-xfX" firstAttribute="leading" secondItem="5jF-6y-rfC" secondAttribute="leading" constant="5" id="t09-Vy-hV4"/>
                             <constraint firstItem="iNy-15-Kpv" firstAttribute="leading" secondItem="5jF-6y-rfC" secondAttribute="leading" constant="5" id="wNh-Lq-tfB"/>
                             <constraint firstItem="s3M-bS-bTc" firstAttribute="centerX" secondItem="GT8-sd-1EW" secondAttribute="centerX" id="yMJ-D9-tBr"/>
@@ -81,31 +81,36 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5jF-6y-rfC"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wdX-RK-Q1Q"/>
                     <connections>
                         <outlet property="sizePicker" destination="v15-lW-ONL" id="f8o-qv-9at"/>
                         <outlet property="startButton" destination="s3M-bS-bTc" id="zE4-RX-ABd"/>
+                        <outlet property="titleLabel" destination="IXE-hT-xfX" id="kc7-2M-0R0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWb-Tj-lzD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-843.47826086956525" y="117.85714285714285"/>
+            <point key="canvasLocation" x="66.666666666666671" y="117.85714285714285"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacInfinity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Infinity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzg-va-TRv">
-                                <rect key="frame" x="20" y="60" width="374" height="47"/>
-                                <fontDescription key="fontDescription" name="InterUI-Black" family="Inter UI" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play 3x3!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzg-va-TRv">
+                                <rect key="frame" x="20" y="60" width="374" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="mG7-1x-Zvx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="InterUI-Black" family="Inter UI" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LmI-A5-vwx">
-                                <rect key="frame" x="57" y="177" width="300" height="300"/>
+                                <rect key="frame" x="57" y="202" width="300" height="300"/>
                                 <color key="backgroundColor" name="mainBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="Ibt-Jm-u30"/>
@@ -113,7 +118,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It is X's Turn." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uII-ps-P9s">
-                                <rect key="frame" x="20" y="115" width="374" height="21"/>
+                                <rect key="frame" x="20" y="140" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4OV-Ln-3PR"/>
                                 </constraints>
@@ -122,7 +127,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xzg-va-TRv" secondAttribute="trailing" constant="20" id="7TE-ND-gEG"/>
                             <constraint firstItem="LmI-A5-vwx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EFZ-Ib-GZG"/>
@@ -144,7 +149,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-36.231884057971016" y="117.85714285714285"/>
+            <point key="canvasLocation" x="873.91304347826099" y="117.85714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yUf-4S-Lfp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HYJ-LV-jSU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="wFx-TU-Wgc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="mainBlue"/>
+                        <color key="tintColor" name="mainBlue"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bHC-bJ-elo" kind="relationship" relationship="rootViewController" id="kVJ-Am-jGo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOt-M6-EiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-843.47826086956525" y="117.85714285714285"/>
         </scene>
     </scenes>
     <resources>
